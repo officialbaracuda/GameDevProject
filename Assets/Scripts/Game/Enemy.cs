@@ -79,7 +79,6 @@ public class Enemy : MonoBehaviour
 
     private void Flip()
     {
-        Debug.Log("Flip");
         facingLeft = !facingLeft;
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
