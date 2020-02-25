@@ -74,10 +74,6 @@ public class GameController : MonoBehaviour
 
     }
 
-    public GameController()
-    {
-    }
-
     public void Collect(ItemType type, int value)
     {
         Debug.Log(type + " has collected with value " + value);

@@ -293,16 +293,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6343bb08d26ed74c910cc56abf5f049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 365
-  m_CrouchSpeed: 0.6
-  m_MovementSmoothing: 0.1
-  m_Grounded: 0
-  m_WhatIsGround:
+  jumpForce: 365
+  mCrouchSpeed: 0.5
+  movementSmoothing: 0.05
+  grounded: 0
+  whatIsGround:
     serializedVersion: 2
-    m_Bits: 4624
-  m_GroundCheck: {fileID: 987007707}
-  m_CeilingCheck: {fileID: 1116774692}
-  m_CrouchDisableCollider: {fileID: 14901870}
+    m_Bits: 512
+  groundCheck: {fileID: 987007707}
+  ceilingCheck: {fileID: 1116774692}
+  crouchDisableCollider: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d309b9ce0d32135428380d32879c6bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement: {fileID: 0}
+  movement: {fileID: 14901876}
 --- !u!1 &17812761
 GameObject:
   m_ObjectHideFlags: 0
@@ -5309,7 +5309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315240306}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.109445095, y: -1.5000001, z: -10}
+  m_LocalPosition: {x: -0.11001921, y: -1.5000001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 798185704}

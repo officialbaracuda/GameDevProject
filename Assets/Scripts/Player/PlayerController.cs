@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        movement = GetComponent<PlayerMovement>();
         gameController = GameController.Instance;
         initialPosition = transform.position;
     }
